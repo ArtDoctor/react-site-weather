@@ -1,0 +1,465 @@
+
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header/navigation */
+.header{
+    background-color:#18181B;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+}
+
+.company_name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 6vw;
+    color: #FFFFFF;
+}
+
+
+.navoptions{
+    display: flex;
+    margin: 0 10vw;
+}
+
+.navoption{
+    padding: 3vh 3vw;
+}
+
+.navoption a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.navoption:hover {
+    background-color: #27272A;
+}
+
+.button{
+    background-color: #38BDF8;
+    margin:3vh 1vw;
+    padding: 0 3vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #27272A;
+    color: white;
+    
+}
+
+.button:hover a{
+    color: white;
+}
+
+.button a{
+    color: black;
+}
+
+
+@media (max-width: 1000px){
+    .search{
+        display: none;
+    }
+}
+
+.user{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12;
+    line-height: 59px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 2vh 0;
+}
+
+.additional{
+    display: flex;
+    align-items: right;
+    margin-left: 5vw;
+}
+
+/* Main part of the site */
+
+/* First block */
+.first_block{
+    height: 600px;
+    display: flex;
+}
+
+.picture{
+    height: 600px;
+    width: 34vw;
+    object-fit:cover;
+}
+
+.block1{
+    background-color: #27272A;
+    height: auto;
+    width: auto;
+    padding:12vh 7vw;
+    align-items: right;
+}
+
+.logo{
+    float: right;
+    height: 8vw;
+    width: 8vw;
+    margin-top: 3vh;
+}
+
+.block1 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.block1 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+/* Second block */
+
+.second_block{
+    height: 600px;
+    display: flex;
+    margin:14vh 10vw;
+}
+
+.block2{
+    height: auto;
+    width: auto;
+    padding:22vh 0;
+    padding-right: 6vw;
+    align-items: left;
+}
+
+.block2 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    color: #000000;
+}
+
+.block2 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Third block */
+
+.third_block{
+    display: block;
+    margin: 2vh 10vw;
+}
+
+.third-block-main{
+    display: flex;
+}
+
+.ad{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 1vh;
+    padding-right: 50vw;
+}
+
+.block3{
+    background-color: #38BDF8;
+    height: auto;
+    width: auto;
+    padding:22vh 6vw;
+    margin-right: 5vw;
+    align-items: left;
+}
+
+.block3 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vh;
+    line-height: 11vh;
+    color: #000000;
+    padding-right:6vw;
+}
+
+.block3 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.picture1{
+    height: 55vh;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 3vh;
+}
+
+.button_third{
+    background-color: #38BDF8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 4vh 0;
+    padding: 2vh 10vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_third:hover{
+    background-color: #27272A;
+    color: white;
+    
+}
+
+.button_third:hover a{
+    color: white;
+}
+
+.button_third a{
+    color: black;
+}
+
+.ad1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 1vh;
+    padding-right: 20vw;
+}
+
+
+/* Dropdown */
+  
+.triangle{
+    margin-left: 0.24vw;
+}
+
+.dropbtn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #27272A;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #27272A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #737373}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.bodylogin {
+    background: #27272A;
+    font-family: 'Roboto', sans-serif;
+    height: 88.7vh;
+}
+
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    background: #18181B;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+
+input[type=password] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    border-color: #38BDF8;
+    color: #38BDF8;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #38BDF8;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 5px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+
+.error{
+    color: red;
+}
+
+.bodylogin{
+    padding-top: 20vh;
+}
+
+.text-in-forecast{
+    padding: 10vh;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+}
